@@ -1,599 +1,399 @@
-/* font face */
-@font-face {
-    font-family: "PT Sans", sans-serif;
-    src: url("../../public/fonts/PTSans-Bold.woff2");
-    src: url("../../public/fonts/PTSans-BoldItalic.woff2");
-    src: url("../../public/fonts/PTSans-Italic.woff2");
-    src: url("../../public/fonts/PTSans-Regular.woff2");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-
-[class^='icon-'],
-.nojobs_container_jobAlerts::before,
-.nojobs_container_myjobs::before,
-.nojobs_container_savedJobs::before,
-.nojobs_container_applied::before,
-.nojobs_container_domainJobs::before,
-.icon, .icon_eye, .icon_share {
-    background-image: url("/next/static/images/sprite.svg");
-    background-repeat: no-repeat;
-}
-
-
-
-[class^='iconH-'],
-.iconH-download-app::before,
-.iconH-for-employers::before,
-.iconH-help::before,
-.iconH-share::before,
-.iconH-similarJobs::before,
-.slick-arrow::after,
-.tick-green-big,
-.iconH,
-.immedidate_icon,
-.immedidate_tag::before,
-.smo a,
-.appStoreIocnWrap i,
-.file_uploadnew, .topBarRight.name::after {
-background-image: url("/next/static/images/header-sprite.svg");    
-background-repeat: no-repeat;
-}
-
-
-.iconH-download-app::before {
-    background-position: 0 0;
-}
-
-.iconH-for-employers::before {
-    background-position: -14px 0;
-}
-
-.iconH-help::before {
-    background-position: -34px 0;
-}
-
-.iconH-arrow-down {
-    background-position: -106px -48px;
-}
-
-.arrow-vertical{
-    background-position: -110px -104px;
-}
-
-.iconH-login {
-    background-position: -100px -27px;
-}
-
-
-
-.iconH-blog {
-    background-position: 4px 1px;
-}
-
-.iconH-jobsH {
-    background-position: -168px -317px;
-}
-
-.iconH-connect {
-    background-position: -64px -312px !important;
-
-}
-
-
-
-.iconH-zoom {
-
-    background-position: -128px 0;
-}
-
-.iconH-zoom-white {
-
-    background-position: -79px -28px;
-}
-
-.iconH-new {
-    background-position: -57px -28px;
-}
-
-.iconH-bar-menu {
-    background-position: -80px 0;
-}
-
-.iconH-alert {
-    background-position: -56px 0;
-
-}
-
-.iconH-cart {
-    background-position: -103px 0;
-}
-
-.iconH-jobs {
-    background-position: -58px -27px;
-}
-
-.iconH-jobs {
-    background-position: -58px -27px;
-}
-
-.iconH-shopping {
-    background-position: -78px -28px;
-}
-
-.iconH-linkedin-color {
-    background-position: -142px -24px;
-}
-
-.iconH-twitter {
-    background-position: -57px -47px;
-}
-
-.iconH-facebook {
-    background-position: -77px -47px;
-}
-
-.iconH-services {
-    background-position: 0 -80px;
-}
-
-.iconH-home {
-    background-position: -168px 0;
-}
-
-.iconH-job {
-    background-position: -168px -18px;
-}
-
-.iconH-job-assistance {
-    background-position: -168px -36px;
-}
-
-.iconH-courses {
-    background-position: -168px -54px;
-}
-
-.iconH-order {
-    background-position: -168px -74px;
-}
-
-.iconH-career-guidance {
-    background-position: -168px -92px;
-}
-
-.iconH-linkedin {
-    background-position: -168px -110px;
-}
-
-.iconH-twitter {
-    background-position: 0 -138px;
-}
-
-.iconH-facebook {
-    background-position: -168px -144px;
-}
-
-.iconH-google {
-    background-position: -168px -163px;
-}
-
-.iconH-quotes {
-    background-position: -110px -80px;
-
-}
-
-.iconH-barMneu {
-    background-position: -80px 0;
-}
-
-.iconH-bell {
-    background-position: -56px 0;
-
-}
-
-.iconH-mic {
-    background-position: -152px 0;
-}
-
-.iconH-arrow {
-    background-position: -111px -105px;
-}
-
-.iconH-back-arrow {
-    background-position: -128px -54px;
-}
-
-.iconH-share::before {
-    background-position: -102px -158px;
-
-}
-
-.iconH-star {
-    background-position: -126px -125px;
-}
-
-
-.iconH-star.active {
-    background-position: -79px -157px;
-}
-
-.iconH-similarJobs::before {
-    background-position: -126px -157px;
-
-}
-
-.iconH-googlePlay {
-    background-position: 0 -237px;
-}
-
-.iconH-appStore {
-    background-position: 0 -271px;
-}
-
-.iconH-flashIcon {
-    background-position: -63px -312px;
-
-}
-
-.iconH-flashIconPopup {
-    background-position: -63px -312px;
-}
-
-.slick-arrow::after {
-    background-repeat: no-repeat;
-    background-position: -111px -52px;
-}
-
-.tick-green-big {
-    background-position: -126px -180px;
-}
-
-.topBarRight .name::after {
-    background-position: -58px -39px;
-
-}
-
-
-.immedidate_icon {
-    background-position: -24px -307px;
-}
-
-.immedidate_tag::before {
-    background-position: -24px -307px;
-}
-
-
-.smoLinkedin {
-    background-position: -168px -110px;
-
-}
-
-.smotwitter {
-    background-position: -168px -127px;
-}
-
-.smofacebook {
-    background-position: -168px -144px;
-}
-
-
-.iconGooglePlayStore {
-    background-position: -58px -49px;
-}
-
-.iconApplePlayStore {
-    background-position: -85px -49px;
-}
-
-
-.icon-back {
-    background-position: -104px -305px;
-
-}
-
-.icon-location {
-    background-position: -78px 0;
-
-}
-
-.icon-job {
-    background-position: -56px -0;
-}
-
-.icon-info {
-    background-position: -39px 0;
-
-}
-
-.icon-salary {
-    background-position: -173px 0;
-}
-
-.icon-share {
-    background-position: -95px -0;
-}
-
-.icon-similarJobs {
-    background-position: -150px -0;
-
-}
-
-.icon-applicationNoticed {
-    background-position: 0 -47px;
-
-}
-
-.icon-arrow-thin {
-    background-position: -119px 0px;
-
-}
-
-.icon-edit {
-    background-position: 0 0;
-}
-
-.icon-ribbon {
-    background-position: -21px 1px;
-
-}
-
-.icon-transport {
-    background-position: -49px -21px;
-}
-
-.icon-cafeteria {
-    background-position: -95px -22px;
-}
-
-.icon-gym {
-    background-position: -134px -23px;
-}
-
-.icon-healthcare {
-    background-position: -179px -20px;
-}
-
-.icon-mail {
-    background-position: -374px -48px;
-
-}
-
-.icon-phone {
-    background-position: -37px -64px;
-}
-
-.icon-phone-white {
-    background-position: -143px -47px;
-}
-
-.icon-rupee-indian {
-    background-position: -166px -48px;
-}
-
-.icon-tick-green {
-    background-position: -59px -47px;
-}
-
-.icon-tick-green-sm {
-    background-position: -120px -48px;
-}
-
-.icon-tick-red {
-    background-position: -99px -219px;
-}
-
-.icon-linkedin {
-    background-position: 0 -86px;
-}
-
-.icon-twitter {
-    background-position: -45px -86px;
-
-}
-
-.icon-gmail {
-    background-position: -135px -86px;
-
-}
-
-.icon-facebook {
-    background-position: -90px -86px;
-}
-
-
-.icon-create-profile {
-    background-position: -103px -48px;
-
-}
-
-.icon-create-alert {
-    background-position: -133px -48px;
-
-}
-
-.icon-applied {
-    background-position: -120px -48px;
-}
-
-
-.icon-assessment {
-    background-position: 0 -132px;
-}
-
-.icon-career-path {
-    background-position: -32px -131px;
-}
-
-.icon-dream-job {
-    background-position: -59px -134px;
-}
-
-.icon-searchDot {
-    background-position: -89px -133px;
-}
-
-.icon-createProfile {
-    background-position: -127px -133px;
-}
-
-
-.icon-preview {
-    background-position: 0 -321px;
-}
-
-
-
-.icon-jobAlert {
-    background-position: 0 -165px;
-}
-
-.icon-jobProfile {
-    background-position: -47px -165px;
-}
-
-
-.nojobs_container_jobAlerts::before {
-
-
-    background-position: 124px -171px;
-
-
-}
-
-
-.nojobs_container_myjobs::before {
-    background-position: 49px -170px;
-}
-
-.nojobs_container_applied::before {
-
-    background-position: 124px -171px;
-
-}
-
-.nojobs_container_savedJobs::before {
-
-    background-position: 85px -169px;
-}
-
-
-.nojobs_container_domainJobs::before {
-
-    background-position: -80px -169px;
-}
-
-.icon-intersted {
-    background-position: -122px -270px;
-
-}
-
-.iconHT-forward {
-    background-position: -28px -67px;
-
-}
-
-.iconHT-calender {
-    background-position: 0 -67px;
-}
-
-.icon_forward {
-    background-position: -19px -303px;
-}
-
-
-.icon_resumewriting {
-    background-position: -56px -308px
-}
-
-.icon-searchHire {
-    background-position: 0 -268px;
-}
-
-.icon-postJob {
-    background-position: -42px -266px;
-}
-
-.icon-conductHackathon {
-    background-position: -80px -267px;
-}
-
-.iconHT-copyLink {
-    background-position: -28px -84px;
-}
-
-.icon-flashIcon {
-    background-position: -136px -307px;
-}
-
-.icon-formeIcon {
-    background-position: -171px -307px;
-}
-
-.icon-skill-down {
-    background-position: -119px -0;
-
-}
-
-.icon-skill-up {
-    background-position: -119px -0;
-}
-
-
-.icon-expired {
-    background-position: -134px -218px;
-}
-
-.icon-lock {
-    background-position: -171px -132px;
-
-}
-
-
-.icon-create-alert-lock {
-    background-position: -164px -327px;
-}
-
-.icon-share-blog {
-    background-position: -73px -245px;
-}
-
-.icon-view-blog {
-    background-position: 4px -334px;
-}
-
-
-
-.icon-facebook-blog {
-    background-position: -88px -367px;
-}
-
-.icon-twitter-blog {
-    background-position: -1px -365px;
-
-}
-
-.icon-linkedin-blog {
-    background-position: -117px -367px;
-}
-
-.icon-pintrest-blog {
-    background-position: -31px -366px;
-}
-
-.icon-whatsapp-blog {
-    background-position: -60px -366px;
-}
-
-.file_uploadnew {
-    background-position: 0 -307px;
-}
-
-.icon_eye {
-    background-position: -33px -399px;  
-}
-
-.icon_share {
-         background-position: -6px -399px;
+* {
+    font-family: Nunito, sans-serif;
+  }
+  
+  .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .responsive-container-block.bigContainer {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+  }
+  
+  .responsive-container-block.Container {
+    max-width: 800px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 215px;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-left: auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .text-blk.heading {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+  }
+  
+  .text-blk.subHeading {
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+  
+  .socialIcon {
+    width: 33px;
+    height: 33px;
+  }
+  
+  .social-icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .social-icon {
+    margin: 0 50px 0 50px;
+  }
+  
+  .social-icon:hover {
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .text-blk.heading {
+      font-size: 55px;
+      line-height: 65px;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .socialIcon {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .text-blk.subHeading {
+      line-height: 27px;
+    }
+  
+    .text-blk.heading {
+      font-size: 32px;
+      line-height: 40px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+  
+    .social-icon {
+      margin: 0 25px 0 25px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .responsive-container-block.bigContainer {
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+    }
+  
+    .text-blk.heading {
+      font-size: 45px;
+      line-height: 55px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 14px;
+      line-height: 22px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+    }
+  
+    .social-icons-container {
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .text-blk.subHeading {
+      font-size: 16px;
+      line-height: 23px;
+    }
+  
+    .text-blk.heading {
+      font-size: 26px;
+      line-height: 30px;
+    }
+  
+    .social-icon {
+      margin: 0 20px 0 20px;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-desk-1 {
+  width: 8.333333%;
+}
+
+.wk-desk-2 {
+  width: 16.666667%;
+}
+
+.wk-desk-3 {
+  width: 25%;
+}
+
+.wk-desk-4 {
+  width: 33.333333%;
+}
+
+.wk-desk-5 {
+  width: 41.666667%;
+}
+
+.wk-desk-6 {
+  width: 50%;
+}
+
+.wk-desk-7 {
+  width: 58.333333%;
+}
+
+.wk-desk-8 {
+  width: 66.666667%;
+}
+
+.wk-desk-9 {
+  width: 75%;
+}
+
+.wk-desk-10 {
+  width: 83.333333%;
+}
+
+.wk-desk-11 {
+  width: 91.666667%;
+}
+
+.wk-desk-12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk-ipadp-1 {
+    width: 8.333333%;
+  }
+
+  .wk-ipadp-2 {
+    width: 16.666667%;
+  }
+
+  .wk-ipadp-3 {
+    width: 25%;
+  }
+
+  .wk-ipadp-4 {
+    width: 33.333333%;
+  }
+
+  .wk-ipadp-5 {
+    width: 41.666667%;
+  }
+
+  .wk-ipadp-6 {
+    width: 50%;
+  }
+
+  .wk-ipadp-7 {
+    width: 58.333333%;
+  }
+
+  .wk-ipadp-8 {
+    width: 66.666667%;
+  }
+
+  .wk-ipadp-9 {
+    width: 75%;
+  }
+
+  .wk-ipadp-10 {
+    width: 83.333333%;
+  }
+
+  .wk-ipadp-11 {
+    width: 91.666667%;
+  }
+
+  .wk-ipadp-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-tab-1 {
+    width: 8.333333%;
+  }
+
+  .wk-tab-2 {
+    width: 16.666667%;
+  }
+
+  .wk-tab-3 {
+    width: 25%;
+  }
+
+  .wk-tab-4 {
+    width: 33.333333%;
+  }
+
+  .wk-tab-5 {
+    width: 41.666667%;
+  }
+
+  .wk-tab-6 {
+    width: 50%;
+  }
+
+  .wk-tab-7 {
+    width: 58.333333%;
+  }
+
+  .wk-tab-8 {
+    width: 66.666667%;
+  }
+
+  .wk-tab-9 {
+    width: 75%;
+  }
+
+  .wk-tab-10 {
+    width: 83.333333%;
+  }
+
+  .wk-tab-11 {
+    width: 91.666667%;
+  }
+
+  .wk-tab-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk-mobile-1 {
+    width: 8.333333%;
+  }
+
+  .wk-mobile-2 {
+    width: 16.666667%;
+  }
+
+  .wk-mobile-3 {
+    width: 25%;
+  }
+
+  .wk-mobile-4 {
+    width: 33.333333%;
+  }
+
+  .wk-mobile-5 {
+    width: 41.666667%;
+  }
+
+  .wk-mobile-6 {
+    width: 50%;
+  }
+
+  .wk-mobile-7 {
+    width: 58.333333%;
+  }
+
+  .wk-mobile-8 {
+    width: 66.666667%;
+  }
+
+  .wk-mobile-9 {
+    width: 75%;
+  }
+
+  .wk-mobile-10 {
+    width: 83.333333%;
+  }
+
+  .wk-mobile-11 {
+    width: 91.666667%;
+  }
+
+  .wk-mobile-12 {
+    width: 100%;
+  }
 }
